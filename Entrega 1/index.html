@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <title>Entrega 1</title>
+    <h1 class="titulo">Entrega Número 1</h1>
+    <h2 class="titulo">Por: Igor Improta</h2>
+    <hr>
+</head>
+<body>
+    <p class="texto_explicacion">Esta página tiene como objetivo mostrar la aplicación de los conceptos de HTML y CSS enseñados hasta ahora.</p>
+    <hr>
+    <h2 class="subtitulo">Datos del Alumno:</h4>
+    <table border="3">
+        <thead>
+            <tr>
+                <th class="nombre" id="texto_comun">Nombre</th>
+                <th id="texto_comun">Apellido</th>
+                <th class="edad" id="texto_comun">Edad</th>
+                <th id="texto_comun">Nacionalidad</th>
+                <th id="texto_comun">E-mail</th>
+                <th id="texto_comun">Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td id="texto_comun">Igor</td>
+            <td id="texto_comun">Improta Martinez da Silva</td>
+            <td class="central" id="texto_comun">20</td>
+            <td class="central" id="texto_comun">Brasileño</td>
+            <td id="texto_comun">igor.improta@anahuac.mx</td>
+            <td id="texto_comun">+55 11 93944-9574</td>
+        </tbody>
+    </table>
+    <h2 class="subtitulo">Más informaciones:</h4>
+    <ul>
+        <li id="texto_comun">
+            Hobbies:
+            <ul>
+                <li id="texto_comun">Fútbol</li>   
+                <img src="img/palmeiras.jpg" alt="S.E. Palmeiras" class="imagenes_lista">
+                <li id="texto_comun">Videojuegos</li>
+                <img src="img/rdr2.jpg" alt="Red Dead Redemption 2" class="imagenes_lista">
+                <li id="texto_comun">Animales</li>
+                <img src="img/perro.jpg" alt="Perros" class="imagenes_lista">
+                <img src="img/gato.jpg" alt="Gatos" class="imagenes_lista">
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h3 class="central" id="recomendaciones">Sítios Web que recomiendo</h3>
+    <div class="container">
+        <a href="http://netflix.com">
+            <img src="img/netflix.png" alt="Netflix" class="imagenes_recomendaciones">
+        </a>
+        <a href="http://google.com">
+            <img src="img/google.png" alt="Google" class="imagenes_recomendaciones">
+        </a>
+        <a href="http://chess.com">
+            <img src="img/chess-com.jpg" alt="Chess.com" class="imagenes_recomendaciones">
+        </a>
+    </div>
+    <br>
+    <hr>
+    <form name="Sugestiones">
+        <h3>¿Le gustó la página?</h3>
+        <label for="gusto-si">Sí</label>
+        <input type="radio" name="gusto-si" checked>
+        <label for="gusto-no">No</label>
+        <input type="radio" name="gusto-si" disabled>
+        <br><br>
+        <label for="sugestiones">Sugestiones:</label>
+        <textarea name="sugestiones"cols="30" rows="10"></textarea>
+    </form>
+</body>
+<footer>
+    <hr>
+    <h1 class="titulo">¡Gracias por su tiempo!</h1>
+</footer>
+</html>
