@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9413b4c39d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/img/guitarra-electrica-para-heavy-metal.png" type="image/x-icon">
+
+    <title>BlogMyMetal</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="navbar-img">
+              <img src="/img/guitarra-electrica-para-heavy-metal.png" alt="Guitarra eléctrica para heavy metal">
+            </span>
+            BlogMyMetal
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Grupos Musicales
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#" onclick="openA7X()">Avenged Sevenfold</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="openIronMaiden()">Iron Maiden</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="openLambOfGod()">Lamb of God</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="openMetallica()">Metallica</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="openSlipknot()">Slipknot</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#" onclick="openLinkedin()">Linkedin</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#" onclick="openGitHub()">GitHub</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#" onclick="openPlaylist()">Playlist</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" id="searchInput" type="search" placeholder="Busca grupo musical" aria-label="Busca">
+              <button class="btn btn-outline-success" type="button" onclick="searchBand()"> <i class="fa-solid fa-magnifying-glass"></i>Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section class="bg-dark p-5 text-light text-center text-sm-start my-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div style="margin-bottom: 20px;">
+                    <p class="lead my-10">Esto es un fan blog con recomendaciones personales de grupos de Heavy Metal.</p>
+                    <br>
+                    <p>Seleccione Inscribirse para recibir nuevas actualizaciones.</p>
+                    <br>
+                    <button onclick="openForm()" class="btn btn-warning btn-lg">Inscribirse</button>
+                </div>
+                <div><img src="/img/heavy-metal.png" class="icono-header" alt="Guitarra eléctrica para heavy metal"></div>
+            </div>
+        </div>
+      </section>
+      <div class="container">
+        <h1 class="mt-5">Grupos Musicales</h1>
+        <p>Estos son los grupos musicales que recomiendo. Selecciona la imagen de uno para ir a su página o en la barra de navegación seleccione "Grupos Musicales".</p>
+        <br>
+    </div>
+
+    <div class="bg-dark">
+      <div id="carouselPagInicio" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="position-relative">
+              <img src="/img/a7x-integrantes.jpg" class="d-block w-100" alt="Avenged Sevenfold" onclick="openA7X()">
+              <div class="band-name">
+                <h4>Avenged Sevenfold</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img src="/img/ironmaiden-integrantes.jpg" class="d-block w-100" alt="Iron Maiden" onclick="openIronMaiden()">
+              <div class="band-name">
+                <h4>Iron Maiden</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img src="/img/lambofgod-integrantes.jpg" class="d-block w-100" alt="Lamb of God" onclick="openLambOfGod()">
+              <div class="band-name">
+                <h4>Lamb of God</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img src="/img/metallica-integrantes.jpg" class="d-block w-100" alt="Metallica" onclick="openMetallica()">
+              <div class="band-name">
+                <h4>Metallica</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img src="/img/slipknot-integrantes.webp" class="d-block w-100" alt="Slipknot" onclick="openSlipknot()">
+              <div class="band-name">
+                <h4>Slipknot</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPagInicio" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPagInicio" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>   
+</body>
+
+<footer class="footer">
+  <div class="container py-4">
+      <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+              <h5 class="text-light">Sobre BlogMyMetal</h5>
+              <p class="text-light">BlogMyMetal es un fan blog con recomendaciones personales de grupos de Heavy Metal. ¡Encuentra tus bandas favoritas y descubre nuevas!</p>
+              <br>
+              <h5 class="text-light">Desarrollador</h5>
+              <p class="text-light">Igor Improta Martinez da Silva</p>
+              <p class="text-light">igorims2003@gmail.com</p>
+              <a href="https://api.whatsapp.com/send?phone=5511939449574" target="_blank" class="text-light me-3 icono-footer"><img src="/img/whatsapp.png" alt="WhatsApp">WhatsApp</a>
+            </div>
+          <div class="col-md-6 text-center text-md-end">
+              <h5 class="text-light">Redes Sociales</h5>
+              <ul class="list-unstyled mb-0">
+                  <li><a href="#" class="text-light me-3 icono-footer" onclick="openLinkedin()"><img src="/img/linkedin.png" alt="Linkedin">Linkedin</a></li>
+                  <br>
+                  <li><a href="#" class="text-light me-3 icono-footer" onclick="openGitHub()"><img src="/img/signo-de-github.png" alt="">GitHub</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="text-center p-3 bg-dark" style="background-color: rgba(0, 0, 0, 0.2);">
+      <p class="mb-0 text-light">© 2024 BlogMyMetal | Todos los derechos reservados</p>
+  </div>
+</footer>
+
+</html>
