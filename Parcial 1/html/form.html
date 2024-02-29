@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Parcial 1/css/style.css">
+    <link rel="icon" href="/Parcial 1/img/guitarra-electrica-para-heavy-metal.png" type="image/x-icon">
+    <title>Formulario de Inscripción</title>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <section class="margen-form">
+                    <h1 class="text-light">Formulario de Inscripción</h1>
+                    <form id="formulario" onsubmit="return validarFormulario()">
+                        <div class="input-group mb-3">
+                            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" required>
+                        </div>
+                
+                        <div class="input-group mb-3">
+                            <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Apellido" required>
+                        </div>
+                
+                        <div class="input-group mb-3">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Correo Electrónico" required>
+                        </div>
+                
+                        <input type="checkbox" id="aceptar" name="aceptar" value="aceptar" required>
+                        <label class="text-light" for="aceptar">Acepto recibir actualizaciones por correo electrónico</label><br><br>
+                
+                        <input type="submit" value="Enviar">
+                    </form>
+                
+                    <div id="mensaje" style="display: none; color: green;">
+                        <br>
+                        ¡Registro realizado! Haz clic <a href="/Parcial 1/index.html">aquí</a> para volver a la página de inicio.
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="/Parcial 1/img/rock-and-roll.png" alt="Icono Rock and Roll" class="icono-form">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/Parcial 1/js/script.js"></script>
+</body>
+</html>

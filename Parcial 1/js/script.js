@@ -1,5 +1,5 @@
 function openForm() {
-    window.open('/Entrega Parcial 1/html/form.html', '_blank');
+    window.open('/Parcial 1/html/form.html', '_blank');
 }
 
 document.getElementById("formulario").addEventListener("submit", function(event) {
@@ -25,19 +25,19 @@ function validarFormulario() {
 }
 
 function openA7X() {
-    window.open('/Entrega Parcial 1/html/a7x.html', '_blank');
+    window.open('/Parcial 1/html/a7x.html', '_blank');
 }
 function openIronMaiden() {
-    window.open('/Entrega Parcial 1/html/ironmaiden.html', '_blank');
+    window.open('/Parcial 1/html/ironmaiden.html', '_blank');
 }
 function openLambOfGod() {
-    window.open('/Entrega Parcial 1/html/lambofgod.html', '_blank');
+    window.open('/Parcial 1/html/lambofgod.html', '_blank');
 }
 function openMetallica() {
-    window.open('/Entrega Parcial 1/html/metallica.html', '_blank');
+    window.open('/Parcial 1/html/metallica.html', '_blank');
 }
 function openSlipknot() {
-    window.open('/Entrega Parcial 1/html/slipknot.html', '_blank');
+    window.open('/Parcial 1/html/slipknot.html', '_blank');
 }
 
 $(document).ready(function() {

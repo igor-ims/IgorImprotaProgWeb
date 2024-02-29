@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9413b4c39d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Parcial 1/css/style.css">
+    <link rel="icon" href="/Parcial 1/img/guitarra-electrica-para-heavy-metal.png" type="image/x-icon">
+    <title>MyMetal - Iron Maiden</title>
+</head>
+<body class="bg-dark-subtle">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="navbar-img">
+              <img src="/Parcial 1/img/guitarra-electrica-para-heavy-metal.png" alt="Guitarra eléctrica para heavy metal">
+            </span>
+            BlogMyMetal
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Grupos Musicales
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="/Parcial 1/html/a7x.html">Avenged Sevenfold</a></li>
+                  <li><a class="dropdown-item" href="/Parcial 1/html/lambofgod.html">Lamb of God</a></li>
+                  <li><a class="dropdown-item" href="/Parcial 1/html/metallica.html">Metallica</a></li>
+                  <li><a class="dropdown-item" href="/Parcial 1/html/slipknot.html">Slipknot</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://open.spotify.com/playlist/6060vJkgXGjx9hysHol8Jb?si=LPoVhi11TYuZfwr9QNznDQ" target="_blank">Playlist</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" id="searchInput" type="search" placeholder="Busca grupo musical" aria-label="Busca">
+              <button class="btn btn-outline-success" type="button" onclick="searchBand()"> <i class="fa-solid fa-magnifying-glass"></i>Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 id="comienzo">Iron Maiden</h1>
+            <p class="justify-text">
+              Iron Maiden es una banda de heavy metal formada en 1975 por el bajista Steve Harris. Originarios de Leyton, East London, son considerados unos de los pioneros de la New Way of British Heavy Metal.
+            </p>
+            <h2>Formación actual:</h2>
+            <ul>
+              <li>Bruce Dickinson - Vocalista</li>
+              <li>Steve Harris - Bajista</li>
+              <li>Dave Murray - Guitarrista</li>
+              <li>Adrian Smith - Guitarrista</li>
+              <li>Jannick Gers - Guitarrista</li>
+              <li>Nicko McBrain - Baterista</li>
+            </ul>
+            
+            <h2>Recomendaciones de Canciones:</h2>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=NXqFxShP7Ao" target="_blank">Blood Brothers</a></li>
+              <li><a href="https://www.youtube.com/watch?v=6PDMtqejNfs" target="_blank">Fear Of The Dark - En Vivo</a></li>
+              <li><a href="https://www.youtube.com/watch?v=HAQQUDbuudY" target="_blank">Hallowed Be Thy Name</a></li>
+              <li><a href="https://www.youtube.com/watch?v=FBanU-AHMqg" target="_blank">Sign Of The Cross - En Vivo</a></li>
+              <li><a href="https://www.youtube.com/watch?v=M94pIbfp5vU" target="_blank">The Clansman - En Vivo</a></li>
+            </ul>
+            <h2>Discografía:</h2>
+            <ol>
+              <li><strong>Iron Maiden</strong> (1980)</li>
+              <li><strong>Killers</strong> (1981)</li>
+              <li><strong>The Number of the Beast</strong> (1982)</li>
+              <li><strong>Piece of Mind</strong> (1983)</li>
+              <li><strong>Powerslave</strong> (1984)</li>
+              <li><strong>Somewhere in Time</strong> (1986)</li>
+              <li><strong>Seventh Son of a Seventh Son</strong> (1988)</li>
+              <li><strong>No Prayer for the Dying</strong> (1990)</li>
+              <li><strong>Fear of the Dark</strong> (1992)</li>
+              <li><strong>The X Factor</strong> (1995)</li>
+              <li><strong>Virtual XI</strong> (1998)</li>
+              <li><strong>Brave New World</strong> (2000)</li>
+              <li><strong>Dance of Death</strong> (2003)</li>
+              <li><strong>A Matter of Life and Death</strong> (2006)</li>
+              <li><strong>The Final Frontier</strong> (2010)</li>
+              <li><strong>The Book of Souls</strong> (2015)</li>
+              <li><strong>Senjutsu</strong> (2021)</li>
+            </ol>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="/Parcial 1/img/ironmaiden-icono.png" alt="Logo Iron Maiden" class="img-fluid iron-image" id="comienzo">
+          </div>
+        </div>
+        <h2 class="text-center">¡Disfruta de su música!</h2>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/Parcial 1/js/script.js"></script>
+</body>
+</html>

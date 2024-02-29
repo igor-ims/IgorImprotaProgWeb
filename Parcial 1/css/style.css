@@ -1,4 +1,4 @@
-.icono-header{
+.icono-explicacion{
     height: 180px;
     width: 180px;
 }
@@ -49,6 +49,7 @@
     height: 40px;
     width: auto;
     margin-right: 5px;
+    cursor: default;
 }
 
 .footer{
@@ -59,4 +60,53 @@
     filter: invert(1);
     height: 40px;
     width: auto;
+}
+
+.margen-form{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.icono-form{
+    filter: invert(1);
+    height: 300px;
+    width: 300px;
+}
+
+#comienzo{
+    margin-top: 100px;
+}
+
+.a7x-image{
+    height: 500px;
+    width: 800px;
+    align-items: end;
+}
+
+.iron-image{
+    height: 500px;
+    width: 800px;
+    align-items: end;
+}
+
+.lamb-image{
+    height: 500px;
+    width: 800px;
+    align-items: end;
+}
+
+.metallica-image{
+    height: 300px;
+    width: 800px;
+    align-items: end;
+}
+
+.slipknot-image{
+    height: 500px;
+    width: 800px;
+    align-items: end;
+}
+
+.justify-text{
+    text-align: justify;
 }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9413b4c39d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Parcial 1/css/style.css">
+    <link rel="icon" href="/Parcial 1/img/guitarra-electrica-para-heavy-metal.png" type="image/x-icon">
+    <title>MyMetal - Slipknot</title>
+</head>
+<body class="bg-dark-subtle">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="navbar-img">
+              <img src="/Parcial 1/img/guitarra-electrica-para-heavy-metal.png" alt="Guitarra eléctrica para heavy metal">
+            </span>
+            BlogMyMetal
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Grupos Musicales
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="/Parcial 1/html/a7x.html">Avenged Sevenfold</a></li>
+                  <li><a class="dropdown-item" href="/Parcial 1/html/ironmaiden.html">Iron Maiden</a></li>
+                  <li><a class="dropdown-item" href="/Parcial 1/html/lambofgod.html">Lamb of God</a></li>
+                  <li><a class="dropdown-item" href="/Parcial 1/html/metallica.html">Metallica</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://open.spotify.com/playlist/6060vJkgXGjx9hysHol8Jb?si=LPoVhi11TYuZfwr9QNznDQ" target="_blank">Playlist</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" id="searchInput" type="search" placeholder="Busca grupo musical" aria-label="Busca">
+              <button class="btn btn-outline-success" type="button" onclick="searchBand()"> <i class="fa-solid fa-magnifying-glass"></i>Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 id="comienzo">Slipknot</h1>
+            <p class="justify-text">
+              Slipknot es una banda de metal alternativo formada en 1995 en Des Moines, Iowa, Estados Unidos. La banda es conocida por su imagen llamativa, su estilo de música agresivo y sus conciertos enérgicos y caóticos. Slipknot ha lanzado siete álbumes de estudio, tres álbumes en vivo, dos álbumes de compilación, un EP, veintiocho sencillos, cinco álbumes de video y treinta y tres videos musicales.
+            </p>
+            <h2>Formación actual:</h2>
+            <ul>
+              <li>Corey Taylor - Vocalista</li>
+              <li>Jim Root - Guitarra Principal</li>
+              <li>Mick Thomson - Guitarra Base</li>
+              <li>Shawn Crahan - Percusionista</li>
+              <li>Sid Wilson - DJ</li>
+              <li>Alessandro Venturella - Bajista</li>
+              <li>Michael Pfaff - Percusionista</li>
+              <li>Miembro no identificado - Sampler</li>
+            </ul>            
+            <h2>Recomendaciones de Canciones:</h2>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=26PRhCJtgPQ" target="_blank">The Heretic Anthem</a></li>
+              <li><a href="https://www.youtube.com/watch?v=qw2LU1yS7aw" target="_blank">Before I Forget</a></li>
+              <li><a href="https://www.youtube.com/watch?v=VpATBBRajP8" target="_blank">Unsainted</a></li>
+              <li><a href="https://www.youtube.com/watch?v=IU4DqZJDshA" target="_blank">Eyeless - En Vivo</a></li>
+              <li><a href="https://www.youtube.com/watch?v=5abamRO41fE" target="_blank">Psychosocial</a></li>
+            </ul>
+            <h2>Discografía:</h2>
+            <ol>
+              <li><strong>Slipknot</strong> (1999)</li>
+              <li><strong>Iowa</strong> (2001)</li>
+              <li><strong>Vol. 3: (The Subliminal Verses)</strong> (2004)</li>
+              <li><strong>All Hope Is Gone</strong> (2008)</li>
+              <li><strong>.5: The Gray Chapter</strong> (2014)</li>
+              <li><strong>We Are Not Your Kind</strong> (2019)</li>
+              <li><strong>The End, So Far</strong> (2022)</li>
+            </ol>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="/Parcial 1/img/slipknot-icono.jpg" alt="Logo Avenged Sevenfold" class="img-fluid slipknot-image" id="comienzo">
+          </div>
+        </div>
+        <h2 class="text-center">¡Disfruta de su música!</h2>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="/Parcial 1/js/script.js"></script>
+</body>
+</html>
