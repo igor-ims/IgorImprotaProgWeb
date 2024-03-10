@@ -1,5 +1,5 @@
 function openForm() {
-    window.open('/Parcial 1/html/form.html', '_blank');
+    window.open('html/form.html', '_blank');
 }
 
 document.getElementById("formulario").addEventListener("submit", function(event) {
@@ -25,20 +25,45 @@ function validarFormulario() {
 }
 
 function openA7X() {
-    window.open('/Parcial 1/html/a7x.html', '_blank');
+    if (window.location.pathname.includes("index.html")) {
+        window.open('html/a7x.html', '_blank');
+    } else {
+        window.open('a7x.html', '_blank');
+    }
 }
+
 function openIronMaiden() {
-    window.open('/Parcial 1/html/ironmaiden.html', '_blank');
+    if (window.location.pathname.includes("index.html")) {
+        window.open('html/ironmaiden.html', '_blank');
+    } else {
+        window.open('ironmaiden.html', '_blank');
+    }
 }
+
 function openLambOfGod() {
-    window.open('/Parcial 1/html/lambofgod.html', '_blank');
+    if (window.location.pathname.includes("index.html")) {
+        window.open('html/lambofgod.html', '_blank');
+    } else {
+        window.open('lambofgod.html', '_blank');
+    }
 }
+
 function openMetallica() {
-    window.open('/Parcial 1/html/metallica.html', '_blank');
+    if (window.location.pathname.includes("index.html")) {
+        window.open('html/metallica.html', '_blank');
+    } else {
+        window.open('metallica.html', '_blank');
+    }
 }
+
 function openSlipknot() {
-    window.open('/Parcial 1/html/slipknot.html', '_blank');
+    if (window.location.pathname.includes("index.html")) {
+        window.open('html/slipknot.html', '_blank');
+    } else {
+        window.open('slipknot.html', '_blank');
+    }
 }
+
 
 $(document).ready(function() {
     $('#carouselPagInicio').carousel({
@@ -82,3 +107,6 @@ function searchBand() {
 function openPlaylist(){
     window.open('https://open.spotify.com/playlist/6060vJkgXGjx9hysHol8Jb?si=LPoVhi11TYuZfwr9QNznDQ', '_blank');
 }
+
+
+
